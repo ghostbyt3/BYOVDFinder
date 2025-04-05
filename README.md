@@ -6,7 +6,7 @@ HVCI is a security feature in Windows that helps protect against attacks like ke
 
 ### Requirements
 - Python 3.x
-- `driversipolicy.p7b` file containing HVCI blocklist data
+- `driversipolicy.p7b` file containing HVCI blocklist data (optional)
 
 ### Usage
 
