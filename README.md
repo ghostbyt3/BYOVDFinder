@@ -1,5 +1,5 @@
 # BYOVDFinder
-BYOVDFinder helps you check which drivers from loldrivers.io are not blocked by the current HVCI (Hypervisor Code Integrity) blocklist on your system. This is particularly useful for BYOVD (Bring Your Own Vulnerable Driver) attacks where attackers try to load drivers that should have been blocked by HVCI.
+BYOVDFinder helps you check which drivers from loldrivers.io are not blocked by the current HVCI (Hypervisor Code Integrity) blocklist on your system. This is particularly useful for BYOVD (Bring Your Own Vulnerable Driver) attack paths where vulnerable drivers are permitted to load despite HVCI being enabled.
 
 ### Why HVCI Blocks Drivers?
 HVCI is a security feature in Windows that helps protect against attacks like kernel exploits by verifying the integrity of code running at the kernel level. It blocks drivers that are unsigned or known to be malicious by checking them against an internal blocklist. If a driver is not recognized, it will be blocked to prevent possible exploitation.
